@@ -3,6 +3,14 @@
 /* blue - #fff4e0 */
 /* green - #0bceaf */
 
+@media (max-width: 768px){
+  /* xs */
+}
+
+@media (max-width: 992px){
+  /* sm */
+}
+
 *{
   font-family: 'Roboto Mono', monospace;
 }
@@ -21,6 +29,18 @@ h6{
 .section-header{
   margin-bottom: 30px;
 }
+@media (max-width: 768px){
+  body{
+    padding-top: 50px;
+  }
+  .section-header{
+    margin-top: 30px;
+  }
+  .section{
+    margin-top: 100px;
+  }
+}
+
 
 /* #matrix{
   width:100%;
@@ -86,6 +106,19 @@ h6{
   width: 100%;
   height: 100%;
 }
+@media (max-width: 992px){
+  #intro-picture{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 768px){
+  #intro{
+    text-align: center;
+  }
+}
+
 
 
 
@@ -111,6 +144,12 @@ h6{
   display: inline-block;
   color: white;
 }
+@media (max-width: 768px){
+  #about{
+    text-align: center;
+  }
+}
+
 
 
 
@@ -129,7 +168,7 @@ h6{
 #projects-content img{
   width: auto;
   margin: 0 20px 20px 0;
-  border: solid 1px #eaeaea;
+  border: solid 3px #eaeaea;
   height: 200px;
 }
 #projects-content .pill{
@@ -149,6 +188,29 @@ h6{
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 20px;
+}
+@media (max-width: 768px){
+  #projects-list{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .project-name{
+    margin: 10px;
+    display: inline-block;
+  }
+  .photos{
+    height: 350px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #projects-content img{
+    max-width: 500px;
+    height: 300px;
+  }
+  #projects-content a, #projects-content h4, #projects-content .contributions{
+    text-align: center;
+  }
 }
 
 
@@ -212,4 +274,13 @@ h6{
 }
 .experience-item-year{
 
+}
+
+
+
+
+
+#questions{
+  text-align: center;
+  margin-bottom: 50px;
 }

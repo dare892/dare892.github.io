@@ -93,7 +93,7 @@ $(document).ready(function(){
                   "</div>" +
                   "<h4 style='margin-top: 30px;'>" + title + "</h4>" +
                   "<h6 style='margin-top: 30px;'>" + description + "</h6>" +
-                  "<div style='margin-top: 15px;'>" + contributions + "</div>" +
+                  "<div class='contributions' style='margin-top: 15px;'>" + contributions + "</div>" +
                   "<div style='margin-top:40px;'><a href='" + url + "'><h6>" + url_text + "</h6></a></div>" +
               "</div>"
     $('#projects-content').append(content)
