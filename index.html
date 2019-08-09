@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Jong Park</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Jong Park Website">
+    <meta name="author" content="JongPark">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"/>
+    <!-- <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"/>
+  </head>
+  <body>
+    <div class='nav'></div>
+    <!-- <canvas id="matrix"></canvas> -->
+    <!-- <div id="hello"> -->
+      <!-- <span class="typer" id="main" data-words="Welcome,To,Jong's,Hub" data-delay="100" data-deleteDelay="1000" data-colors="white"></span>
+      <span class="cursor" data-owner="main"></span> -->
+    <!-- </div> -->
+
+    <div class='container'>
+      <div id="intro">
+        <div class="row">
+          <div class='col-sm-6'>
+            <div id="intro-hello">Hello I'm</div>
+            <h1 id="intro-name">Jong Park</h1>
+            <h3 id="intro-title">Software Architect</h1>
+            <div class='intro-item'><i class="fas fa-envelope"></i> dare892@gmail.com</div>
+            <div class='intro-item'><i class="fas fa-map-marker-alt"></i> Phoenix, Arizona, USA</div>
+          </div>
+          <div class='col-sm-6'>
+            <div id='intro-picture'>
+              <img src='./images/me.jpg'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="about" class='section'>
+        <div class="row">
+          <div class='col-sm-6'>
+            <div id="about-image">
+              <img src='./images/ab-img.png'>
+            </div>
+          </div>
+          <div class='col-sm-6'>
+            <h2 class='section-header'>About Me</h2>
+            <h6>Hello, my name is Jong, a full stack web developer and business consultant based in Phoenix, Arizona, USA. I have rich experience in helping small tech projects get off the ground in various platforms.</h5>
+            <span class='about-pill'>web development</span>
+            <span class='about-pill'>ruby</span>
+            <span class='about-pill'>python</span>
+            <span class='about-pill'>php</span>
+            <span class='about-pill'>crystal</span>
+            <span class='about-pill'>css</span>
+            <span class='about-pill'>html</span>
+            <span class='about-pill'>javascript</span>
+            <span class='about-pill'>react</span>
+            <span class='about-pill'>angular</span>
+            <span class='about-pill'>postgresql</span>
+            <span class='about-pill'>mysql</span>
+            <span class='about-pill'>android</span>
+            <span class='about-pill'>ios</span>
+            <span class='about-pill'>devops</span>
+            <span class='about-pill'>UX</span>
+            <span class='about-pill'>business strategy</span>
+            <span class='about-pill'>project management</span>
+            <span class='about-pill'>product management</span>
+            <span class='about-pill'>TDD</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="projects" class='section'>
+        <div class='container'>
+          <div class="row">
+            <div class="col-sm-3" id='projects-list'>
+            <h2 class='section-header'>Work</h2>
+
+            </div>
+            <div class="col-sm-9" id="projects-content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="skills" class='section'>
+        <div class='row'>
+          <div class="col-sm-5">
+            <h2 class='section-header'>Technical Skills</h2>
+            <div id='skills-list'>
+
+            </div>
+          </div>
+          <div class="col-sm-2">
+          </div>
+          <div class="col-sm-5">
+            <h2 class='section-header'>Professional Skills</h2>
+            <div id='professional-skills-list'>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id='experience' class='section'>
+        <h2 class='section-header'>Work Experience</h2>
+        <div id='work-experience-list'>
+
+        </div>
+      </div>
+
+
+
+
+      <div id='other-experience'>
+        <h2 class='section-header'>Other</h2>
+        <div id='other-experience-list'>
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+    <script src="projects.js"></script>
+    <script src="tech_skills.js"></script>
+    <script src="professional_skills.js"></script>
+    <script src="experience.js"></script>
+
+    <!-- <script src="matrix.js"></script> -->
+
+  </body>
+</html>
