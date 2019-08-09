@@ -45,6 +45,17 @@ $(document).ready(function(){
         './images/projects/bilingol/3.png'
      ]
     },
+    {'title': 'Olumo',
+     'description': "Use the power of Olumo’s millions of daily data points to gain deep insights into how you’re doing. Olumo campaigns compare your anonymized results to other organizations to show benchmark performance.",
+     'url': 'https://www.olumo.com',
+     'url_text': 'https://www.olumo.com',
+     'contributions': ['frontend'],
+     'photos': [
+        './images/projects/olumo/1.png',
+        './images/projects/olumo/2.png',
+        './images/projects/olumo/3.png'
+     ]
+    },
     {'title': 'ShopStevie',
      'description': "Online retailers for women's clothing. A custom multi-tenant solution was built.",
      'url': 'https://www.shopstevie.com/',
