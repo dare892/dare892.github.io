@@ -29,6 +29,12 @@ $(document).ready(function(){
       'title': 'Software Engineer',
       'year': '2015',
       'image': './images/experience/church.png'
+    },
+    {
+      'company': 'SnapPower',
+      'title': 'Tech Consultant, Data Processing',
+      'year': '2014',
+      'image': './images/experience/snap.png'
     }
   ]
 

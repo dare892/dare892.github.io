@@ -1,7 +1,14 @@
 /* colors:  */
 /* wheat - #2ab7ca */
-/* blue - #fff4e0 */
+/* blue - #35cdf5 */
 /* green - #0bceaf */
+
+/* $canvas-green: #30c0a8;
+$canvas-purple: #8496c6;
+$canvas-yellow: #f0d860;
+$canvas-red: #f85f86;
+$canvas-orange: #ffb366; */
+
 
 @media (max-width: 768px){
   /* xs */
@@ -29,6 +36,16 @@ h6{
 .section-header{
   margin-bottom: 30px;
 }
+.pill{
+ font-size: 12px;
+ padding: 3px 10px 4px;
+ background-color: #eaeaea;
+ margin: 2px;
+ border-radius: 4px;
+ display: inline-block;
+}
+
+
 @media (max-width: 768px){
   body{
     padding-top: 50px;
@@ -140,8 +157,6 @@ h6{
   padding: 2px 10px 3px;
   background-color: #0bceaf;
   margin: 3px 1px;
-  border-radius: 4px;
-  display: inline-block;
   color: white;
 }
 @media (max-width: 768px){
@@ -150,6 +165,43 @@ h6{
   }
 }
 
+
+
+
+#services{
+
+}
+#services-list{
+  display: flex;
+  flex-direction: center;
+}
+.service-item{
+  text-align: center;
+  box-shadow: 0px 10px 20px 4px #00000015;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+  border-radius: 4px;
+  width: 400px;
+  margin: 15px;
+}
+.service-icons{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.service-icons i{
+  font-size: 40px;
+  color: white;
+}
+.service-title{
+  margin: 20px 0;
+  font-size: 20px;
+}
+.service-description{
+  font-size: 15px;
+}
 
 
 
@@ -171,14 +223,6 @@ h6{
   border: solid 3px #eaeaea;
   height: 200px;
 }
-#projects-content .pill{
-  font-size: 12px;
-  padding: 3px 10px 4px;
-  background-color: #eaeaea;
-  margin: 2px;
-  border-radius: 4px;
-  display: inline-block;
-}
 #projects-content a{
   font-size: 11px;
   text-decoration: underline;
@@ -188,6 +232,10 @@ h6{
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 20px;
+}
+#projects .status-pill{
+  background-color: #0bceaf;
+  color: white;
 }
 @media (max-width: 768px){
   #projects-list{
