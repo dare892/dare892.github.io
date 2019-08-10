@@ -173,7 +173,8 @@ h6{
 }
 #services-list{
   display: flex;
-  flex-direction: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .service-item{
   text-align: center;
