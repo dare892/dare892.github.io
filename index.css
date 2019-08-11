@@ -107,6 +107,13 @@ h6{
 .intro-item i{
   width: 15px;
 }
+.intro-images{
+  margin-top: 30px;
+}
+.intro-images img{
+  height: 18px;
+  margin-right: 10px;
+}
 #intro-picture{
   border: 20px solid rgba(0, 0, 0, 0.07);
   border-radius: 100%;

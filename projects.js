@@ -91,6 +91,19 @@ $(document).ready(function(){
         './images/projects/shopstevie/2.png',
         './images/projects/shopstevie/3.png'
      ]
+    },
+    {'title': 'Nomad Housing',
+      'description': "The biggest temporary housing company for professionals. Nomad will help you find a long-term stay housing for your business partners for temporary relocation.",
+      'url': 'https://www.nomadtemphousing.com',
+      'url_text': 'https://www.nomadtemphousing.com',
+      'contributions': ['backend'],
+      'role': 'Contributor',
+      'status': 'LIVE',
+      'photos': [
+        './images/projects/nomad/1.png',
+        './images/projects/nomad/2.png',
+        './images/projects/nomad/3.png'
+      ]
     }
   ]
 

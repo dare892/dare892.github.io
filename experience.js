@@ -31,6 +31,12 @@ $(document).ready(function(){
       'image': './images/experience/church.png'
     },
     {
+      'company': 'Anglepoint',
+      'title': 'Software Asset Management Analyst',
+      'year': '2014',
+      'image': './images/experience/anglepoint.png'
+    },
+    {
       'company': 'SnapPower',
       'title': 'Tech Consultant, Data Processing',
       'year': '2014',
